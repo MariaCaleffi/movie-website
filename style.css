@@ -16,18 +16,23 @@ body{
     display: flex;
     align-items: center;
     background-color: blanchedalmond;
+    padding: 0 50px;
+    height: 100%;
 }
 
 .logo-contanier{
     flex: 1;
+    background-color: green;
 }
 
 .menu-contanier{
-    flex: 1;
+    flex: 6;
+    background-color: rgb(187, 130, 130);
 }
 
 .profile-contanier{
-    flex: 1;
+    flex: 2;
+    background-color: red;
 }
 
 .sidebar{
